@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.minervasolutions.com.br/$1 [R,L]
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?minervasolutions.com.br [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+Options -Indexes
+
+<FilesMatch ".(htm|html|css|js)$">
+AddDefaultCharset UTF-8
+</FilesMatch>
