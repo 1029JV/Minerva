@@ -23,19 +23,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .fundo {
-    background-image: url(../img/obraFundo.jpg);
+    background-image: url(../img/cameraFundo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-.col-lg-4 {
-    margin-top: 5%;
-}
-
-.col-lg-4-1 {
-    margin-top: 0;
+.col-md-3 {
+    margin-top: 2%;
 }
 
 .imgModificada {
@@ -63,7 +59,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .blog-masthead {
     margin-bottom: 1.5rem;
-    background-color: #428bca;
+    background-color: #a349a3;
     box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
 }
 
@@ -85,8 +81,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .btn-secondary:hover {
     color:#fff;
-    background-color:#007bff;
-    border-color:#007bff;
+    background-color:#a349a3;
+    border-color:#ffffff;
 }
 
 .nav-link.active::after {
@@ -105,7 +101,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .blog-footer {
     text-align: center;
-    background-color: #7b7573;
+    background-color: #a349a3;
     padding: 2%;
 }
 
@@ -113,7 +109,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #ffffff;
 }
 
-.novart {
+.nomeEmpresa {
     padding: 0.7rem 2rem 0rem 2rem;
     line-height: 2rem;
 }
@@ -130,7 +126,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
         float: right;
     }
 
-    .novart {
+    .nomeEmpresa {
         padding: 0.8rem 2rem 0rem 2rem;
     }
 
