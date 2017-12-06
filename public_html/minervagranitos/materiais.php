@@ -121,14 +121,14 @@
         </footer>
         <!--FIM DO RODAPÉ-->
 
-        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="css/style.css" rel="stylesheet">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
-        <script type="text/javascript" src="js/popper.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/holder.min.js"></script>
-        <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/holder.min.js"></script>
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript">
             function disableselect(e) {
                 return false;

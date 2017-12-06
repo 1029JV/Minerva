@@ -1,0 +1,6 @@
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{HTTP_HOST} minervasolutions.com.br
+RewriteCond %{REQUEST_URI} !minervasolutions/
+RewriteRule ^(.*)$ minervasolutions/$1 [L]
