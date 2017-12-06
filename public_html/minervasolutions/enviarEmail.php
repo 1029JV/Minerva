@@ -4,7 +4,7 @@ header("Content-type: text/html; charset=utf-8");
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 $From = $_POST["iptEmail"];
-$To = "joao_vitor1029@outlook.com";
+$To = "comercial@minervasolutions.com.br";
 $Subject = $_POST["iptAssunto"];
 $Subject = '=?UTF-8?B?' . base64_encode($Subject) . '?=';
 $Nome = $_POST["iptNome"];
