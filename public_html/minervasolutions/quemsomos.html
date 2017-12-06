@@ -10,7 +10,7 @@
 
     <body class="text-light">
         <!--TOPO-->
-        <header class="fixed-top topo">
+        <header class="topo">
             <div class="text-center">
                 <h5 class="espacoDoTopo">Minerva Solutions</h5>
             </div>
@@ -36,13 +36,6 @@
             </div>
         </header>
         <!--FIM DO TOPO-->
-
-        <!--MEIO-->
-        <!--<div id="desativando">
-            <video loop autoplay src="video/video.mp4">
-                Seu navegador não suportar a exibição deste vídeo.
-            </video>
-        </div>-->
 
         <div class="container">
             <hr class="featurette-divider">
@@ -74,7 +67,7 @@
                 <form action="enviarEmail.php" method="post" class="form-group">
                     <div class="col-lg-6 float-left">
                         <label class="col-form-label">Nome:</label><input type="text" name="iptNome" id="iptNome" class="form-control" placeholder="Pessoa ou empresa" required/>
-                        <label class="col-form-label">Telefone:</label><input type="text" name="iptTelefone" id="iptTelefone" class="form-control" placeholder="(00) 0000-0000" required/>
+                        <label class="col-form-label">Telefone:</label><input type="text" name="telefone" id="iptTelefone" class="form-control" placeholder="(00) 0000-0000" required/>
                     </div>
                     <div class="col-lg-6 float-right">
                         <label class="col-form-label">Email:</label><input type="email" name="iptEmail" id="iptEmail" class="form-control" placeholder="example@example.com" required/>
@@ -90,7 +83,7 @@
             <a href="#" target="new"><div id="instagram" class="redeIcon"><img class="redeIcone" src="img/ico/instagram.ico" alt="Instagram"/></div></a>
             <a href="#" target="new"><div id="twitter" class="redeIcon"><img class="redeIcone" src="img/ico/twitter.ico" alt="Twitter"/></div></a><br/><br/>
             <p class="float-right"><a href="#">Voltar para o início</a></p>
-            <p>&copy; 2017, Todos os direitos reservados.</p>
+            <p>&copy;2017 - Minerva Solutions. Todos os direitos reservados.</p>
         </footer>
         <!--FIM DO RODAPE-->
 
@@ -102,6 +95,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/holder.min.js"></script>
         <script src="js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
         <script type="text/javascript">
             function disableselect(e) {
                 return false;
