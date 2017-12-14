@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="#">
         <meta name="author" content="Minerva Solutions">
-        <link rel="icon" href="#">
-        <title>Sobre</title>
+        <link rel="icon" href="img/logoFotografia.png">
+        <title>Contato</title>
     </head>
 
     <body>
@@ -23,13 +23,13 @@
                                 <a class="nav-link" href="index.html">Página inicial</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="porfolio.html">Portfólio</a>
+                                <a class="nav-link" href="portfolio.html">Portfólio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Sobre</a>
+                                <a class="nav-link" href="sobre.html">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contato.html">Contato</a>
+                                <a class="nav-link active" href="#">Contato</a>
                             </li>
                         </ul>
                     </div>
@@ -39,14 +39,23 @@
 
         <main role="main">
 
-            <section class="container text-center clearfix">
+            <section class="clearfix container"> 
                 <hr class="featurette-divider">
-                <div>
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x620/auto" alt="NOME" title="NOME">
-                    <h2 class="featurette-heading">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo convallis, condimentum mauris nec, iaculis mi. Nunc non urna et turpis consectetur condimentum. Morbi quis dui at enim rhoncus iaculis. In egestas euismod nunc eget euismod. Ut imperdiet ante eu ultrices consequat. Donec lobortis mi vel libero scelerisque, ac eleifend felis blandit. Nunc enim sapien, mattis in viverra ultricies, porttitor at enim.</p>
-                </div>
-                <hr class="featurette-divider">
+                <h3 class="text-center">Entre em contato:</h3>
+                <div class="formulario">  
+                    <form action="#" method="POST" id="validate">                  
+                        <label>Nome:</label>
+                        <input name="txtNome" type="text" class="g">
+                        <label>Email:</label>
+                        <input name="txtEmail" type="text" class="m">
+                        <label>Telefone:</label>
+                        <input name="txtTel" type="text" class="p" id="telefone">
+                        <label>Mensagem:</label>
+                        <textarea name="txtAreaMsg" cols="10" rows="5" class="g"></textarea>
+                        <div class="text-center"><input type="submit" class="btn btn-secondary" value="Enviar"></div>
+                    </form>
+                    <hr class="featurette-divider">
+                </div><!--/formulario-->
             </section>
 
         </main>
@@ -67,5 +76,7 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/holder.min.js"></script>
         <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
     </body>
 </html>

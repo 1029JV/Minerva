@@ -2,10 +2,6 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://minervasolutions.com.br/$1 [R,L]
 
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://minervasolutions.com.br [NC]
-RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
-
 <files ~ "^.*\.([Hh][Tt][Aa])">
 order allow,deny
 deny from all
