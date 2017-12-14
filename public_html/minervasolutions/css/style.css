@@ -30,6 +30,11 @@ body {
     letter-spacing: -.05rem;
 }
 
+.janelaApresentacao {
+    width: 400px;
+    height:400px;
+}
+
 .redeIcon {
     width:40px;
     height:40px;
