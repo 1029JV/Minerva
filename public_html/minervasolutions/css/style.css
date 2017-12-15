@@ -18,6 +18,7 @@ body {
 .menu {
     display: flex !important; 
     justify-content: center !important;
+
 }
 
 .featurette-divider {
@@ -80,14 +81,6 @@ body {
 }
 
 @media (max-width: 47.99em) {
-    .menuAjuste {
-        float:left;
-        transform:translateY(-45px);
-    }
-
-    .espacoDoTopo {
-        margin-top: 8%;
-    }
 }
 
 @media (max-width: 20.99em) {
