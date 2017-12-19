@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="#">
+    </head>
+    <body>
+        <h3>Cadastro</h3>
+        <a href="cadFuncionario.html">Funcionários</a><br/>
+        <a href="cadCliente.html">Cliente</a><br/>
+        <a href="cadProduto.html">Produto</a>
+        <h3>Lançamento</h3>
+        <a href="lancaRelatorio.html">Relatórios</a><br/>
+        <a href="fila.html">Próximo da fila</a>
+
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')</script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/holder.min.js"></script>
+        <script src="../js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript">
+            function disableselect(e) {
+                return false;
+            }
+            function reEnable() {
+                return true;
+            }
+            //if IE4+  
+            document.onselectstart = new Function("return false");
+            document.oncontextmenu = new Function("return false");
+            //if NS6  
+            if (window.sidebar) {
+                document.onmousedown = disableselect;
+                document.onclick = reEnable;
+            }
+        </script>
+    </body>
+</html>
