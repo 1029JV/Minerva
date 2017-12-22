@@ -4,16 +4,27 @@
         <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo/logo.png">
     </head>
     <body>
-        <form method="POST" action="#">
-            <label>Usuário:</label>
-            <input type="text" name="txtUsuario"/><br/>
-            <label>Senha:</label>
-            <input type="password" name="txtSenha"/><br/>
-            <input type="submit" value="Entrar" />
-        </form>   
-        <a href="logado/indexLogado.html">Próxima</a>
+        <header class="text-center">
+            <img class="featurette-image img-fluid mx-auto imgLogo espaco" src="img/logo/logo.png" alt="LOGO" title="LOGO">
+        </header>
+
+        <section class="text-center frm">
+            <form method="POST" action="#">
+                <label>Usuário:
+                    <input type="text" class="entrada" name="txtUsuario"/></label>
+                <label>Senha:
+                    <input type="password" class="entrada" name="txtSenha"/></label>
+                <input type="hidden" name="txtAcao" value="logar"/>
+                <input type="submit" class="btn btn-primary" value="Entrar" />
+                <a href="logado/indexLogado.html" class="btn btn-primary">Entrar no sistema</a>
+            </form>
+        </section>
+
+        <footer>
+        </footer>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">

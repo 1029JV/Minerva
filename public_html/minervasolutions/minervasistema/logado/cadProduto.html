@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Logado</title>
+        <title>Cadastro de Produto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="#">
+        <link rel="icon" href="../img/logo/logo.png">
     </head>
-    <body>
-        <h3>Cadastro</h3>
-        <a href="cadFuncionario.html">Funcionários</a><br/>
-        <a href="cadCliente.html">Cliente</a><br/>
-        <a href="cadProduto.html">Produto</a>
-        <h3>Lançamento</h3>
-        <a href="lancaRelatorio.html">Relatórios</a><br/>
-        <a href="fila.html">Próximo da fila</a>
+    <body>        
+        <header class="text-center espaco">
+            <a class="btn btn-secondary" href="indexLogado.html">Voltar</a>
+        </header>
+
+        <section class="text-center frm">
+            <form method="GET" action="#">
+                <h3>Cadastro de Produto</h3>
+                <label>Nome do produto:
+                    <input type="text" name="txtNomeProduto"/></label>
+                <label>Descrição pequena:
+                    <input type="text" name="txtDescricaoPequena"/></label>
+                <label>Descrição completa:
+                    <input type="date" name="txtDescricaoCompleta"/></label>
+                <label>Foto do produto:
+                    <input type="file" name="txtFotoProduto"/></label>
+                <label>Preço:
+                    <input type="text" name="txtEndereco"/></label>
+                <label>Quantidade:
+                    <input type="text" name="txtQuantidade"/></label>
+                <input type="hidden" name="txtAcao" value="cadastrarProduto"/>
+                <input type="submit" class="btn btn-primary" value="Cadastrar"/>
+            </form>
+        </section>
+
+        <footer>
+        </footer>
 
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">

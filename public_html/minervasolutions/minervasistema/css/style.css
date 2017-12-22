@@ -1,0 +1,33 @@
+body {
+    color: #5a5a5a;
+}
+
+.imgLogo {
+    width: 300px; 
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.entrada {
+    padding: 5px 5px 5px 5px;
+}
+
+.frm label {
+    display: block;
+    text-align: right;
+}
+
+.frm {
+    display: flex;
+    justify-content: center;
+}
+
+.espaco {
+    margin: 2% 0 2% 0;
+}
+
+.btn {
+    cursor: pointer;
+}

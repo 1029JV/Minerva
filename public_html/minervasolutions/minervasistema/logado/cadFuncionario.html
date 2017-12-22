@@ -4,27 +4,37 @@
         <title>Cadastro de Funcionário</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="#">
+        <link rel="icon" href="../img/logo/logo.png">
     </head>
     <body>
-        <a href="indexLogado.html">Voltar</a>
-        <form method="GET" action="#">
-            <label>Nome:</label>
-            <input type="text" name="txtNome"/><br/>
-            <label>CPF:</label>
-            <input type="text" name="txtCPF"/><br/>
-            <label>Data de Nascimento:</label>
-            <input type="date" name="txtDataDeNascimento"/><br/>
-            <label>Endereço:</label>
-            <input type="text" name="txtEndereco"/><br/>
-            <label>Telefone:</label>
-            <input type="tel" name="txtTelefone"/><br/>
-            <label>Data de admissão:</label>
-            <input type="date" name="txtDataDeAdmissao"/><br/>
-            <label>Senha:</label>
-            <input type="text" name="txtSenha"/><br/>
-            <input type="submit" value="Cadastrar"/>
-        </form>
+        <header class="text-center espaco">
+            <a class="btn btn-secondary" href="indexLogado.html">Voltar</a>
+        </header>
+
+        <section class="text-center frm">
+            <form method="GET" action="#">
+                <h3>Cadastro de Funcionário</h3>
+                <label>Nome:
+                    <input type="text" class="entrada" name="txtNome"/></label>
+                <label>CPF:
+                    <input type="text" class="entrada" name="txtCPF"/></label>
+                <label>Data de Nascimento:
+                    <input type="date" class="entrada" name="txtDataDeNascimento"/></label>
+                <label>Endereço:
+                    <input type="text" class="entrada" name="txtEndereco"/></label>
+                <label>Telefone:
+                    <input type="tel" class="entrada" name="txtTelefone"/></label>
+                <label>Data de admissão:
+                    <input type="date" class="entrada" name="txtDataDeAdmissao"/></label>
+                <label>Senha:
+                    <input type="text" class="entrada" name="txtSenha"/></label>
+                <input type="hidden" name="txtAcao" value="cadastrarFuncionario"/>
+                <input type="submit" class="btn btn-primary" value="Cadastrar"/>
+            </form>
+        </section>
+
+        <footer>
+        </footer>
 
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
