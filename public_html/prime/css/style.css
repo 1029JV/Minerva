@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin:0;
+}
+
+.meio {
+    background-color: #10707f;
+    color: #fff;
+    padding: 3% 3% 3% 3%;
+}
+
+.meio h2 {
+    text-align: center;
+    min-width: 100%;
+    background-color: #000;
+    padding: 1% 0 1% 0;
+    margin-bottom: 3%;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (max-width: 77em) {
+}
+
+@media (max-width: 47.99em) {
+}
+
+@media (max-width: 20.99em) {
+}
