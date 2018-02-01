@@ -10,8 +10,7 @@
 
     <body>
         <!--TOPO-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-image: linear-gradient(60deg, #254b68, #0b1c31, #254b68, #0b1c31, #254b68)">
-            <!--<img src="holder.js/40x40/auto" alt="LOGO"/>-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navegar">
             <a class="navbar-brand" href="#">Minerva Granitos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,7 +35,7 @@
                 </ul>
             </div>
         </nav>
-        <div id="demonstracao" class="carousel slide" data-ride="carousel">
+        <section id="demonstracao" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#demonstracao" data-slide-to="0" class="active"></li>
                 <li data-target="#demonstracao" data-slide-to="1"></li>
@@ -61,16 +60,13 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Próximo</span>
             </a>
-        </div>
+        </section>
         <!--FIM DO TOPO-->
 
         <!--MEIO-->
-        <div class="marketing container text-justify" id="conservacao">
-
+        <section class="marketing container text-justify" id="conservacao">
             <hr class="featurette-divider">
-
             <h3 class="text-center">Conservação</h3>
-
             <p class="lead recuo">Os Granitos são rochas ígneas basicamente formados por feldspato (minério que define a cor da rocha) e quartzo, esses materiais se enquadram na resistência 06 e 07 na escala de mohs respectivamente.</p>
             <p class="lead recuo">Os Mármores são rochas metamórficas de origem sedimentar formados principalmente pelos minérios Calcita e Dolomita que na escala de mohs de 0 a 10 se enquadra no 03. Para termos como referência o ferro tem resistência 05.</p>
             <p class="lead recuo">Uma forma pratica para diferenciar o Mármore do Granito é pegar um prego (resistência 05) tentar arranhar a pedra, se arranhar ele é um mármore (dureza 03) e se não conseguir riscar a pedra ele é um granito (dureza entre 6 e 7).</p>
@@ -89,13 +85,12 @@
             <p class="lead recuo">01 - Jamais use na limpeza de mármores e granitos produtos abrasivos ou com princípio ativo forte, tais como sapólio, água sanitária, amoníaco, hipoclorito de sódio, soda cáustica, querosene ou ácidos (ácidos cítricos como de limões por exemplo). Eles podem danificar permanentemente a sua pedra.</p>
             <p class="lead recuo">02 - Pela natureza porosa das pedras, mármores e granitos estão sujeitos a manchas. Cuidado com refrigerantes, óleos em geral, vinho, ferrugem, produtos com corantes fortes, pois podem manchar sua pedra até de forma irreversível.</p>
             <p class="lead recuo">03 - Pisos de Mármores e Granitos devem ser limpos assim que possível pois a areia que está no chão pode vir a arranhar o material com o trafego de pessoas.</p>
-        </div>
+        </section>
         <!--FIM DO MEIO-->
 
         <!--CONTATO-->  
-        <div id="contato" class="container">
+        <section id="contato" class="container">
             <hr class="featurette-divider">
-
             <h3 class="text-center">Entre em contato:</h3>
             <form action="enviarEmail.php" method="post" class="form-group">
                 <div class="col-lg-6 float-left">
@@ -110,7 +105,7 @@
                 <input class="btn btn-dark" type="submit" value="Enviar"/>
             </form> 
             <hr class="featurette-divider">
-        </div>
+        </section>
         <!--FIM DO CONTATO-->  
 
         <!--RODAPÉ-->
@@ -133,22 +128,6 @@
         <script src="js/holder.min.js"></script>
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-        <script type="text/javascript">
-            function disableselect(e) {
-                return false;
-            }
-            function reEnable() {
-                return true;
-            }
-            //if IE4+  
-            document.onselectstart = new Function("return false");
-            document.oncontextmenu = new Function("return false");
-            //if NS6  
-            if (window.sidebar) {
-                document.onmousedown = disableselect;
-                document.onclick = reEnable;
-            }
-        </script>
         <script type="text/javascript">
             var divConservacao = $('#conservacao').offset().top - $(window).height();
             var divContato = $('#contato').offset().top - $(window).height();

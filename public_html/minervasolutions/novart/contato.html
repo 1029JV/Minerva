@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        <!--TOPO-->
         <header class="blog-masthead clearfix">
             <a class="nav-link navbar-brand lead novart" href="index.html">NOVART</a>
             <div class="float-right">
@@ -39,30 +40,30 @@
                 </nav>
             </div>
         </header>
+        <!--FIM DO TOPO-->
 
-        <main role="main">
-
-            <section class="clearfix container"> 
+        <!--MEIO-->
+        <section class="clearfix container"> 
+            <hr class="featurette-divider">
+            <h3 class="text-center">Entre em contato:</h3>
+            <div class="formulario">  
+                <form action="#" method="POST" id="validate">                  
+                    <label>Nome:</label>
+                    <input name="txtNome" type="text" class="g">
+                    <label>Email:</label>
+                    <input name="txtEmail" type="text" class="m">
+                    <label>Telefone:</label>
+                    <input name="txtTel" type="text" class="p" id="telefone">
+                    <label>Mensagem:</label>
+                    <textarea name="txtAreaMsg" cols="10" rows="5" class="g"></textarea>
+                    <div class="text-center"><input type="submit" class="btn btn-primary" value="Enviar"></div>
+                </form>
                 <hr class="featurette-divider">
-                <h3 class="text-center">Entre em contato:</h3>
-                <div class="formulario">  
-                    <form action="#" method="POST" id="validate">                  
-                        <label>Nome:</label>
-                        <input name="txtNome" type="text" class="g">
-                        <label>Email:</label>
-                        <input name="txtEmail" type="text" class="m">
-                        <label>Telefone:</label>
-                        <input name="txtTel" type="text" class="p" id="telefone">
-                        <label>Mensagem:</label>
-                        <textarea name="txtAreaMsg" cols="10" rows="5" class="g"></textarea>
-                        <div class="text-center"><input type="submit" class="btn btn-primary" value="Enviar"></div>
-                    </form>
-                    <hr class="featurette-divider">
-                </div><!--/formulario-->
-            </section>
+            </div><!--/formulario-->
+        </section>
+        <!--FIM DO MEIO-->
 
-        </main>
-
+        <!--RODAPE-->
         <footer class="blog-footer clearfix">
             <a href="#"><img class="imgModificada face" src="img/ico/facebook.ico"></a>
             <a href="#"><img class="imgModificada google" src="img/ico/googleplus.ico"></a>
@@ -70,6 +71,7 @@
             <a href="#"><img class="imgModificada twitter" src="img/ico/twitter.ico"></a>
             <p>&copy;2017 - NOVART. Todos os direitos reservados. Desenvolvido por Minerva Solutions.</p>
         </footer>
+        <!--FIM DO RODAPE-->
 
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="css/style.css" rel="stylesheet">

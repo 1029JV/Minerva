@@ -37,7 +37,8 @@
         </header>
         <!--FIM DO TOPO-->
 
-        <div class="container marketing">
+        <!--MEIO-->
+        <section class="container marketing">
             <hr class="featurette-divider quebrando">
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
@@ -48,7 +49,6 @@
                     <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                 </div>
             </div>
-
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
@@ -59,16 +59,13 @@
                     <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                 </div>
             </div>
-
             <hr class="featurette-divider">
             <div class="text-center">
                 <h1>Serviços</h1>
             </div><br/>
-
             <div class="text-center">
                 <h3>Desenvolvimento Web:</h3>
             </div>
-
             <div class="row text-center">
                 <div class="col-lg-2 espacamento">
                     <img class="img-fluid" src="img/desenvolvimento/bootstrap.png" alt="Bootstrap" title="Bootstrap" width="130">
@@ -92,7 +89,7 @@
                 </div>
             </div>
             <hr class="featurette-divider">
-        </div>
+        </section>
         <!--FIM DO MEIO-->
 
         <!--RODAPE-->
@@ -131,21 +128,5 @@
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
         <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-        <script type="text/javascript">
-            function disableselect(e) {
-                return false;
-            }
-            function reEnable() {
-                return true;
-            }
-            //if IE4+  
-            document.onselectstart = new Function("return false");
-            document.oncontextmenu = new Function("return false");
-            //if NS6  
-            if (window.sidebar) {
-                document.onmousedown = disableselect;
-                document.onclick = reEnable;
-            }
-        </script>
     </body>
 </html>

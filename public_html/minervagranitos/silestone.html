@@ -10,8 +10,7 @@
 
     <body>
         <!--TOPO-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-image: linear-gradient(60deg, #254b68, #0b1c31, #254b68, #0b1c31, #254b68)">
-            <!--<img src="holder.js/40x40/auto" alt="LOGO"/>-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navegar">
             <a class="navbar-brand" href="#">Minerva Granitos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,16 +38,12 @@
         <!--FIM DO TOPO-->
 
         <!--MEIO-->
-        <div class="marketing container text-justify" id="conservacao">
-
+        <section class="marketing container text-justify" id="conservacao">
             <hr class="featurette-divider">
-
             <div class="text-center">
                 <img src="img/silestone.png" alt="Logo Silestone" title="Silestone" class="img-fluid"/>
             </div>
-
             <h3 class="text-center">Garantia de alta qualidade</h3>
-
             <p class="lead recuo">Silestone® é líder mundial na produção de superfícies de quartzo de alta performance para cozinhas e banheiros, incluindo bancadas e cubas com uma avançada proteção bacteriostática. Silestone® é a única marca que lhe oferece uma garantia certificada, por escrito.</p>
             <p class="lead recuo">Só uma empresa, líder mundial por ser o maior produtor de superfícies de quartzo e a única a oferecer bancadas com proteção bacteriostática, podia destacar-se de novo, oferecendo uma garantia real de 25 anos sobre Silestone. Não se esqueça de registrar seu produto Silestone no nosso site para ativar os 25 anos de garantia.</p>
             <h5 class="text-center">O que é?</h5>
@@ -65,14 +60,12 @@
             <p class="lead recuo">Silestone é altamente resistente a impactos, superando de forma clara outros produtos similares como o granito e superfícies sólidas. Esta característica garante a segurança na sua cozinha quando manuseia objetos tais como panelas, garrafas de vidro, etc. Esta resistência é alcançada através da dureza do quartzo, da elasticidade da sua resina de poliéster e do sistema de vibro compressão utilizado durante a sua produção.</p>
             <h5 class="text-center">Proteção bacteriostática</h5>
             <p class="lead recuo">A nossa tecnologia baseada em íons de prata. Silestone é a única marca que contém uma proteção bacteriostática, desenvolvida pela Cosentino, que se baseia na utilização de prata de última geração para evitar a propagação de bactérias. Com esta formula, as bancadas Silestone oferecem uma maior higiene para a sua cozinha e seu banheiro Ampla gama de cores Silestone está disponível em mais de 60 cores, de forma a garantir que encontrará a cor e textura para a sua cozinha ou banheiro.</p>
-        </div>
+        </section>
         <!--FIM DO MEIO-->
 
         <!--CONTATO-->  
-        <div id="contato" class="container">
-
+        <section id="contato" class="container">
             <hr class="featurette-divider">
-
             <h3 class="text-center">Entre em contato:</h3>
             <form action="enviarEmail.php" method="post" class="form-group">
                 <div class="col-lg-6 float-left">
@@ -87,7 +80,7 @@
                 <input class="btn btn-dark" type="submit" value="Enviar"/>
             </form> 
             <hr class="featurette-divider">
-        </div>
+        </section>
         <!--FIM DO CONTATO-->  
 
         <!--RODAPÉ-->
@@ -110,21 +103,5 @@
         <script src="js/holder.min.js"></script>
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-        <script type="text/javascript">
-            function disableselect(e) {
-                return false;
-            }
-            function reEnable() {
-                return true;
-            }
-            //if IE4+  
-            document.onselectstart = new Function("return false");
-            document.oncontextmenu = new Function("return false");
-            //if NS6  
-            if (window.sidebar) {
-                document.onmousedown = disableselect;
-                document.onclick = reEnable;
-            }
-        </script>
     </body>
 </html>

@@ -22,6 +22,10 @@ body {
     background-color: #777;
 }
 
+.navegar {
+    background-image: linear-gradient(60deg, #254b68, #0b1c31, #254b68, #0b1c31, #254b68);
+}
+
 .carousel-item > img {
     position: absolute;
     top: 0;

@@ -7,10 +7,13 @@
         <link rel="icon" href="../img/logo/logo.png">
     </head>
     <body>
+        <!--TOPO-->
         <header class="text-center espaco">
             <a class="btn btn-secondary" href="indexLogado.html">Voltar</a>
         </header>
+        <!--FIM DO TOPO-->
 
+        <!--MEIO-->
         <section class="text-center frm">
             <form method="GET" action="#">
                 <h3>Cadastro de Funcionário</h3>
@@ -32,9 +35,12 @@
                 <input type="submit" class="btn btn-primary" value="Cadastrar"/>
             </form>
         </section>
+        <!--FIM DO MEIO-->
 
+        <!--RODAPE-->
         <footer>
         </footer>
+        <!--FIM DO RODAPE-->
 
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
@@ -44,21 +50,5 @@
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/holder.min.js"></script>
         <script src="../js/ie10-viewport-bug-workaround.js"></script>
-        <script type="text/javascript">
-            function disableselect(e) {
-                return false;
-            }
-            function reEnable() {
-                return true;
-            }
-            //if IE4+  
-            document.onselectstart = new Function("return false");
-            document.oncontextmenu = new Function("return false");
-            //if NS6  
-            if (window.sidebar) {
-                document.onmousedown = disableselect;
-                document.onclick = reEnable;
-            }
-        </script>
     </body>
 </html>

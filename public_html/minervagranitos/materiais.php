@@ -10,8 +10,7 @@
 
     <body>
         <!--TOPO-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-image: linear-gradient(60deg, #254b68, #0b1c31, #254b68, #0b1c31, #254b68)">
-            <!--<img src="holder.js/40x40/auto" alt="LOGO"/>-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navegar">
             <a class="navbar-brand" href="#">Minerva Granitos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,12 +38,9 @@
         <!--FIM DO TOPO-->
 
         <!--MEIO-->
-        <div class="marketing text-center container" id="conservacao">
-
+        <section class="marketing text-center container" id="conservacao">
             <hr class="featurette-divider">
-
             <h3>Mármores e Granitos</h3>
-
             <?php
             $marmoreegranito = array(
                 "1" => "Amarelo Ipanema", "2" => "Amarelo Ornamental", "3" => "Amarelo Ouro", "4" => "Arabesco", "5" => "Branco Carrara", "6" => "Branco Cotton", "7" => "Branco Dallas", "8" => "Branco Imaculada", "9" => "Branco Itaúnas", "10" => "Branco Piguês", "11" => "Branco Pinta Verde", "12" => "Branco Rajado", "13" => "Branco Siena", "14" => "Cinza Andorinha", "15" => "Cinza Corumbá", "16" => "Cinza Ocre", "17" => "Crema Marfil", "18" => "Granito Cinza", "19" => "Marrom Absoluto", "20" => "Marta Rocha", "21" => "Ouro Branco", "22" => "Preto Absoluto", "23" => "Preto Nero Marquina", "24" => "Travertino Romano");
@@ -62,11 +58,8 @@
             }
             echo "</div>";
             ?>
-
             <hr class="featurette-divider">
-
             <h3>Silestone</h3>
-
             <?php
             $silestone = array(
                 "25" => "Altair", "26" => "Alumínio Nube", "27" => "Amazon", "28" => "Arden Blue", "29" => "Ariel", "30" => "Bianco Rivers", "31" => "Blanco Capri", "32" => "Blanco City", "33" => "Blanco Maple", "34" => "Blanco Norte", "35" => "Blanco Orion", "36" => "Blanco Stellar", "37" => "Blanco Zeus Extreme", "38" => "Calacatta Gold", "39" => "Calypso", "40" => "Carbono", "41" => "Cemento Spa", "42" => "Charcoal Soapstone", "43" => "Chrome", "44" => "Coral Clay", "45" => "Cream Stone", "46" => "Crema Minerva", "47" => "Cygnus", "48" => "Eros Stellar", "49" => "Green Fun", "50" => "Gris Expo", "51" => "Haiku", "52" => "Helix", "53" => "Ionic Black", "54" => "Ionic White", "55" => "Iron Bark", "56" => "Kensho", "57" => "Lagoon", "58" => "Lyra", "59" => "Marengo", "60" => "Merope", "61" => "Negro Anubis", "62" => "Negro Stellar", "63" => "Negro Tebas", "64" => "Niebla", "65" => "Noka", "66" => "Pearl Jasmine", "67" => "Phoenix", "68" => "Rosso Monza", "69" => "Rougui", "70" => "Royal Reef", "71" => "Serena", "72" => "Statuario", "73" => "Tigris Sand", "74" => "Unsui", "75" => "Vortium", "76" => "White Diamond", "77" => "White Platinum", "78" => "White Storm", "79" => "Yukon", "80" => "Zirconium");
@@ -84,14 +77,12 @@
             }
             echo "</div>";
             ?>
-        </div>
+        </section>
         <!--FIM DO MEIO-->
 
         <!--CONTATO-->  
-        <div id="contato" class="container">
-
+        <section id="contato" class="container">
             <hr class="featurette-divider">
-
             <h3 class="text-center">Entre em contato:</h3>
             <form action="enviarEmail.php" method="post" class="form-group">
                 <div class="col-lg-6 float-left">
@@ -106,7 +97,7 @@
                 <input class="btn btn-dark" type="submit" value="Enviar"/>
             </form> 
             <hr class="featurette-divider">
-        </div>
+        </section>
         <!--FIM DO CONTATO-->  
 
         <!--RODAPÉ-->
@@ -129,21 +120,5 @@
         <script src="js/holder.min.js"></script>
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-        <script type="text/javascript">
-            function disableselect(e) {
-                return false;
-            }
-            function reEnable() {
-                return true;
-            }
-            //if IE4+  
-            document.onselectstart = new Function("return false");
-            document.oncontextmenu = new Function("return false");
-            //if NS6  
-            if (window.sidebar) {
-                document.onmousedown = disableselect;
-                document.onclick = reEnable;
-            }
-        </script>
     </body>
 </html>
