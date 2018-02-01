@@ -10,7 +10,7 @@
 
     <body>
         <!--TOPO-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top navegar">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style=" background-image: linear-gradient(60deg, #254b68, #0b1c31, #254b68, #0b1c31, #254b68)">
             <a class="navbar-brand" href="#">Minerva Granitos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
